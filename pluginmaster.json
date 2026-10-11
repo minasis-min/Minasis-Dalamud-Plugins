@@ -2,7 +2,7 @@
   {
     "Name": "Plugin Chat Overlay",
     "InternalName": "PluginChatOverlay",
-    "AssemblyVersion": "1.0.4.0",
+    "AssemblyVersion": "1.0.5.0",
     "DalamudApiLevel": 15,
     "Punchline": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。",
     "Description": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。\n分離は初期OFFです。",
@@ -12,17 +12,17 @@
       "overlay"
     ],
     "Author": "min",
-    "IconUrl": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.4.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.5.0/icon.png",
     "RepoUrl": "https://github.com/minasis-min/PluginChatOverlay",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.4.0/PluginChatOverlay.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.4.0/PluginChatOverlay.zip",
-    "LastUpdate": 1791642316,
-    "Changelog": "1.0.4: ショートカットボタンの配置と文字サイズを調整。横・縦の位置をpx単位で変更可能。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.5.0/PluginChatOverlay.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.5.0/PluginChatOverlay.zip",
+    "LastUpdate": 1791752881,
+    "Changelog": "1.0.5: レイアウト設定を拡充・整理。スクロールバー、背景の縁、文字の縁取り・間隔、時刻形式を調整可能。標準チャット拡大中の非表示とボタン表示を改善。"
   },
   {
     "Name": "Tooltip Extras",
