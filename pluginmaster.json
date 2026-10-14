@@ -2,27 +2,27 @@
   {
     "Name": "Plugin Chat Overlay",
     "InternalName": "PluginChatOverlay",
-    "AssemblyVersion": "1.0.6.0",
+    "AssemblyVersion": "1.0.7.0",
     "DalamudApiLevel": 15,
     "Punchline": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。",
     "Description": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。\n分離は初期OFFです。",
-    "ApplicableVersion": "2026.09.15.0000.0000",
+    "ApplicableVersion": "any",
     "Tags": [
       "chat",
       "overlay"
     ],
     "Author": "min",
-    "IconUrl": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.6.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.7.0/icon.png",
     "RepoUrl": "https://github.com/minasis-min/PluginChatOverlay",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.6.0/PluginChatOverlay.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.6.0/PluginChatOverlay.zip",
-    "LastUpdate": 1791787172,
-    "Changelog": "1.0.6: 標準／カスタムの外観切替、Alt＋ドラッグ移動を追加。カスタムの外観をUI切替後も保持し、行の間隔とログ同士の間隔を個別に調整可能。設定移行と入力・描画の不具合を修正。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.7.0/PluginChatOverlay.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.7.0/PluginChatOverlay.zip",
+    "LastUpdate": 1791940447,
+    "Changelog": "1.0.7: ゲーム・Dalamud更新時の互換性チェックを見直し、必要な処理・構造・APIが変わらなければ継続動作するよう改善。ツールチップ・文章選択の互換性判定と、Debugでの確認結果・不一致理由表示を追加。"
   },
   {
     "Name": "Tooltip Extras",
