@@ -27,7 +27,7 @@
   {
     "Name": "Tooltip Extras",
     "InternalName": "TooltipExtras",
-    "AssemblyVersion": "1.1.0.0",
+    "AssemblyVersion": "1.1.16.0",
     "DalamudApiLevel": 15,
     "Punchline": "ツールチップの追加情報を見やすく表示",
     "Description": "アイテム・アクションの追加情報を専用パネルに表示します。価格情報の分離、収納状態・衣装セット、追加パッチの表示に対応。",
@@ -38,15 +38,15 @@
     ],
     "Author": "min",
     "RepoUrl": "https://github.com/minasis-min/TooltipExtras",
-    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.0.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.16.0/icon.png",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.0.0/TooltipExtras.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.0.0/TooltipExtras.zip",
-    "LastUpdate": 1791942662,
-    "Changelog": "1.0.3: ホストDLLの型取得失敗で追加情報パネルが停止する問題を修正。設定を保持。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.16.0/TooltipExtras.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.16.0/TooltipExtras.zip",
+    "LastUpdate": 1792463907,
+    "Changelog": "NPC販売・市場情報の分離に対応し、アイテム切替時の表示を改善しました。\n\n- Daily RoutinesのNPC販売情報・市場情報を、TEの専用パネルへ分離できるようになりました。\n- 分解スキル情報の分離を改善しました。\n- 素早くアイテムを切り替えた際、直前のアイテムの説明文が残ることがある問題を修正しました。\n- 分離後に元ツールチップへ余白が残ったり、文字が重なる問題を修正しました。\n- 元の追加表示機能をOFF→ONにした後の分離処理を修正しました。\n- 更新処理の重複を整理し、一時データの生成を減らしました。\n\n追加情報を分離する際は、元のプラグイン側でも対象の追加表示を有効にしてください。保存済みの設定は引き継がれます。"
   }
 ]
