@@ -27,7 +27,7 @@
   {
     "Name": "Tooltip Extras",
     "InternalName": "TooltipExtras",
-    "AssemblyVersion": "1.1.16.0",
+    "AssemblyVersion": "1.1.21.0",
     "DalamudApiLevel": 15,
     "Punchline": "ツールチップの追加情報を見やすく表示",
     "Description": "アイテム・アクションの追加情報を専用パネルに表示します。価格情報の分離、収納状態・衣装セット、追加パッチの表示に対応。",
@@ -38,15 +38,15 @@
     ],
     "Author": "min",
     "RepoUrl": "https://github.com/minasis-min/TooltipExtras",
-    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.16.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.21.0/icon.png",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.16.0/TooltipExtras.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.16.0/TooltipExtras.zip",
-    "LastUpdate": 1792463907,
-    "Changelog": "NPC販売・市場情報の分離に対応し、アイテム切替時の表示を改善しました。\n\n- Daily RoutinesのNPC販売情報・市場情報を、TEの専用パネルへ分離できるようになりました。\n- 分解スキル情報の分離を改善しました。\n- 素早くアイテムを切り替えた際、直前のアイテムの説明文が残ることがある問題を修正しました。\n- 分離後に元ツールチップへ余白が残ったり、文字が重なる問題を修正しました。\n- 元の追加表示機能をOFF→ONにした後の分離処理を修正しました。\n- 更新処理の重複を整理し、一時データの生成を減らしました。\n\n追加情報を分離する際は、元のプラグイン側でも対象の追加表示を有効にしてください。保存済みの設定は引き継がれます。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.21.0/TooltipExtras.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.21.0/TooltipExtras.zip",
+    "LastUpdate": 1792763485,
+    "Changelog": "## Tooltip Extras v1.1.21.0\r\n\r\n対応する追加情報をTEだけに表示する設定を追加し、元ツールチップへの表示残りを改善しました。\r\n\r\n- 「対応する追加情報をTEだけに表示」を追加（既定ON）\r\n- Allagan Toolsの見出し・余白が元ツールチップに残る問題を改善し、箱の内容・リスト・市場価格・開放状況などの分離に対応\r\n- Simple Tweaksのアイテム名・ミラプリ名・アイテムID・操作ヒントの分離を改善\r\n- 元プラグインの表示機能を切り替えた際に、分離が解除される問題を修正\r\n- ミラプリ名のないアイテムで、以前の名前表示が残る問題を修正\r\n- 分離・表示の失敗をゲーム内チャットへ通知する機能を追加\r\n- Debugに未分離文字列と理由の記録を追加。診断JSONへの出力と、保存済み診断の直近10ファイル保持に対応\r\n- 設定保存に失敗した際、一時ファイルが残る問題を修正\r\n\r\n※ 元プラグイン側の表示機能も有効にしてください。既存の設定値は引き継ぎます。\r\n※ TEだけに表示する設定は対応済みの追加情報が対象です。未対応の表示や接続できない機能では、元ツールチップに追加情報が残る場合があります。"
   }
 ]
