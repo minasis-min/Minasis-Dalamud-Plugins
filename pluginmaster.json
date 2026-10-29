@@ -27,7 +27,7 @@
   {
     "Name": "Tooltip Extras",
     "InternalName": "TooltipExtras",
-    "AssemblyVersion": "1.1.28.0",
+    "AssemblyVersion": "1.1.30.0",
     "DalamudApiLevel": 15,
     "Punchline": "ツールチップの追加情報を見やすく表示",
     "Description": "アイテム・アクションの追加情報を専用パネルに表示します。価格情報の分離、収納状態・衣装セット、追加パッチの表示に対応。",
@@ -38,15 +38,15 @@
     ],
     "Author": "min",
     "RepoUrl": "https://github.com/minasis-min/TooltipExtras",
-    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.28.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.30.0/icon.png",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.28.0/TooltipExtras.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.28.0/TooltipExtras.zip",
-    "LastUpdate": 1792931304,
-    "Changelog": "## Tooltip Extras v1.1.28.0\n\nDaily RoutinesとPrice Insightの追加情報の分離を改善しました。\n\n- Daily Routinesの一部の変更で、分離全体が停止する問題を改善\n- 対応できない機能があっても、他の機能の分離を継続するよう改善\n- プレビュー画像のあるアイテムなどで、Price Insightがツールチップの外へ大きくはみ出す問題を修正\n- 再配置後に価格情報がTEへ表示されなくなる問題を修正\n- 通常の待機状態で分離失敗の通知が出る問題を修正\n- 分解情報に元の説明文や他の追加情報が混ざる問題を修正\n\n※ 既存の設定は引き継ぎます。元プラグイン側の表示機能も有効にしてください。内部構造や書き込み処理が変わる更新では、TEの更新が必要になる場合があります。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.30.0/TooltipExtras.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.30.0/TooltipExtras.zip",
+    "LastUpdate": 1793239900,
+    "Changelog": "## Tooltip Extras v1.1.30.0\n\nDaily Routines更新後の追加情報の分離を改善しました。\n\n- DRの内部クラス名変更により、MARKETなどが元ツールチップに残る問題を修正\n- 確認済みの処理と一致する場合、名前が変わっても分離を継続するよう改善\n- 対応できない処理だけを保留し、他の機能の分離を継続\n- 更新状態を確認できない場合に、追加情報が元ツールチップへ流れる経路を修正\n\n※ 既存の設定は引き継ぎます。内部処理や書き込み構造が大きく変わるDR更新では、TEの更新が必要になる場合があります。"
   }
 ]
