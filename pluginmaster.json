@@ -27,7 +27,7 @@
   {
     "Name": "Tooltip Extras",
     "InternalName": "TooltipExtras",
-    "AssemblyVersion": "1.1.30.0",
+    "AssemblyVersion": "1.1.38.0",
     "DalamudApiLevel": 15,
     "Punchline": "ツールチップの追加情報を見やすく表示",
     "Description": "アイテム・アクションの追加情報を専用パネルに表示します。価格情報の分離、収納状態・衣装セット、追加パッチの表示に対応。",
@@ -38,15 +38,15 @@
     ],
     "Author": "min",
     "RepoUrl": "https://github.com/minasis-min/TooltipExtras",
-    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.30.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.38.0/icon.png",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.30.0/TooltipExtras.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.30.0/TooltipExtras.zip",
-    "LastUpdate": 1793239900,
-    "Changelog": "## Tooltip Extras v1.1.30.0\n\nDaily Routines更新後の追加情報の分離を改善しました。\n\n- DRの内部クラス名変更により、MARKETなどが元ツールチップに残る問題を修正\n- 確認済みの処理と一致する場合、名前が変わっても分離を継続するよう改善\n- 対応できない処理だけを保留し、他の機能の分離を継続\n- 更新状態を確認できない場合に、追加情報が元ツールチップへ流れる経路を修正\n\n※ 既存の設定は引き継ぎます。内部処理や書き込み構造が大きく変わるDR更新では、TEの更新が必要になる場合があります。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.38.0/TooltipExtras.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.38.0/TooltipExtras.zip",
+    "LastUpdate": 1794313105,
+    "Changelog": "- 設定画面を整理し、MinasisUIを1.0.8へ更新しました。\n- Allagan Tools 1.15.1.0の追記分離に対応し、生成処理の軽微な変更で分離が止まりにくくなりました。\n- Simple TweaksのアクションIDを分離できるようにしました。\n- Simple TweaksのプレビューとPrice Insightの高さ調整を統合し、元ツールチップに余白が残る問題を改善しました。"
   }
 ]
