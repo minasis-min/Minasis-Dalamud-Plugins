@@ -2,27 +2,27 @@
   {
     "Name": "Plugin Chat Overlay",
     "InternalName": "PluginChatOverlay",
-    "AssemblyVersion": "1.0.9.0",
+    "AssemblyVersion": "1.0.10.0",
     "DalamudApiLevel": 15,
     "Punchline": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。",
-    "Description": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。ゲームログを元のチャットに残したままコピー表示することもできます。\n通知分離・ゲームログコピーは初期OFFです。",
+    "Description": "プラグイン通知をタブ分け可能な専用オーバーレイウィンドウに分離します。\n分離は初期OFFです。",
     "ApplicableVersion": "any",
     "Tags": [
       "chat",
       "overlay"
     ],
     "Author": "min",
-    "IconUrl": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.9.0/icon.png",
+    "IconUrl": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.10.0/icon.png",
     "RepoUrl": "https://github.com/minasis-min/PluginChatOverlay",
     "IsHide": false,
     "IsTestingExclusive": false,
     "CategoryTags": [
       "UI"
     ],
-    "DownloadLinkInstall": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.9.0/PluginChatOverlay.zip",
-    "DownloadLinkUpdate": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.9.0/PluginChatOverlay.zip",
-    "LastUpdate": 1792768391,
-    "Changelog": "1.0.9: ゲームログのコピー表示とタブ別フィルターを追加。チャット窓の画面外移動に対応し、ログ受信中のスクロール操作と設定画面の表記を改善。"
+    "DownloadLinkInstall": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.10.0/PluginChatOverlay.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/PluginChatOverlay/releases/download/v1.0.10.0/PluginChatOverlay.zip",
+    "LastUpdate": 1794314362,
+    "Changelog": "対応するプラグインのトースト通知の表示、Lifestream移動案内の分離、チャットタブの並べ替えを追加。設定画面を整理しました。"
   },
   {
     "Name": "Tooltip Extras",
