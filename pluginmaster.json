@@ -48,5 +48,28 @@
     "DownloadLinkUpdate": "https://github.com/minasis-min/TooltipExtras/releases/download/v1.1.41.0/TooltipExtras.zip",
     "LastUpdate": 1794371953,
     "Changelog": "- Simple Tweaksが追記するアクションIDの分離を修正しました。ダブルチェックなど、別のアクションに置き換わる場合にも対応しました。\n- フック用メモリの一時的な確保失敗で分離が止まった場合に、自動で再接続を試みるようにしました。\n- Allagan Tools、Simple Tweaks、Item Vendor Locationで共通の接続障害が起きた場合は、通知をまとめ、診断で原因を確認できるようにしました。"
+  },
+  {
+    "Author": "min",
+    "Name": "Spend Me Maybe",
+    "InternalName": "SpendMeMaybe",
+    "AssemblyVersion": "0.1.45.0",
+    "DalamudApiLevel": 15,
+    "ApplicableVersion": "any",
+    "Punchline": "貨幣・交換アイテムの所持数を表示",
+    "Description": "所持数としきい値をオーバーレイ表示し、アイコンクリックで登録コマンドを実行します。/spendmemaybe で設定を開きます。",
+    "Tags": [
+      "currency",
+      "overlay",
+      "items"
+    ],
+    "RepoUrl": "https://github.com/minasis-min/SpendMeMaybe",
+    "IconUrl": "https://github.com/minasis-min/SpendMeMaybe/releases/download/v0.1.45.0/icon.png",
+    "DownloadLinkInstall": "https://github.com/minasis-min/SpendMeMaybe/releases/download/v0.1.45.0/SpendMeMaybe.zip",
+    "DownloadLinkUpdate": "https://github.com/minasis-min/SpendMeMaybe/releases/download/v0.1.45.0/SpendMeMaybe.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "Changelog": "通貨・交換アイテムの所持数を表示し、アイコンクリックで登録コマンドを実行できます。",
+    "LastUpdate": "1794372155"
   }
 ]
